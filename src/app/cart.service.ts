@@ -15,6 +15,10 @@ export class CartService {
     return this.items;
   }
 
+  Count() {
+    return this.items.length;
+  }
+
   clearProducts() {
     this.items = [];
     return this.items;
